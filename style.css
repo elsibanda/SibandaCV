@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #0056b3;
+}
+
+header h2 {
+    margin: 5px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.contacts p {
+    margin: 5px 0;
+}
+
+.contacts a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+h4 {
+    margin: 0;
+    font-size: 1.1em;
+    color: #0056b3;
+}
+
+span {
+    font-style: italic;
+    color: #555;
+}
+
+p, ul {
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.skills ul, .leadership ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills li, .leadership li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.skills p, .soft-skills p, .communication p, .hobbies p, .references p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.section-title {
+    font-size: 1.3em;
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+}
+
+div h4 {
+    font-weight: bold;
+}
+
+.container .skills, .container .communication, .container .leadership, .container .references {
+    margin-top: 20px;
+}
